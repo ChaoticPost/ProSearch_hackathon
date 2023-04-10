@@ -15,6 +15,7 @@ const UserSchema = new mongoose.Schema({
         required: true,
         unique: true,
     },
+    role: String, //Employer or an Employee
     passwordHash: {
         type: String,
         required: true,
